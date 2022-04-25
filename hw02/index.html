@@ -486,7 +486,7 @@
 			})
 			;
 
-		var so = new ScoreOutputer("107590035");
+		var so = new ScoreOutputer("107590051");
 		so.installCSS(function () {
 			// 安裝 bootstrap 的 css，如果在 html 上方引用 bootstrap 5.1.1 的話就不用使用 installCSS ，注意一定要 bootstrap css 5.1.1 版
 			// installCSS 接收一個 callback 當作參數，作為成功安裝 bootstrap css 的回呼函式
@@ -498,7 +498,7 @@
 			//有幾個項目就呼叫幾個 addChild
 			//addChild 要比 renderModal 先呼叫
 			so.addChild("字型檔手動讀取", 6, true);
-			so.addChild("字型檔自動讀取", 2, false);
+			so.addChild("字型檔自動讀取", 2, true);
 			so.addChild("字型描點", 2, false);
 
 			//產生自評表，參數如下所示
