@@ -6,66 +6,6 @@
 
 <body>
     <div id="app"></div>
-<<<<<<< HEAD
-    <script src="./dist/polarclockportfolio.min.js"></script>
-    <script>
-
-
-        var hw = [
-            {
-                text: '子',
-                url: './hw01'
-            },
-            {
-                text: '丑',
-                url: './hw02'
-            },
-            {
-                text: '寅',
-                url: './hw03'
-            },
-            {
-                text: '卯',
-                url: './hw04'
-            },
-            {
-                text: '辰',
-                url: './hw05'
-            },
-            {
-                text: '巳',
-                url: './hw06'
-            },
-            {
-                text: '午',
-                url: './hw07'
-            },
-            {
-                text: '未',
-                url: './hw08'
-            },
-            {
-                text: '申',
-                url: './hw09'
-            },
-            {
-                text: '酉',
-                url: './hw10'
-            },
-            {
-                text: '戌',
-                url: './hw11'
-            },
-            {
-                text: '亥',
-                url: './hw12'
-            },
-            {
-                text: '甲',
-                url: './hw13'
-            }
-        ];
-=======
 	<script src="https://cdn.jsdelivr.net/gh/t109598105/portfolio-demo@latest/dist/polarclockportfolio.min.js"></script>
     <script>
         
@@ -78,33 +18,12 @@
 				url: './hw' + order
 			};
 		});
->>>>>>> upstream
 
         var config = {
             page: {
                 loadingBG: '#6A4C9C',
                 mainBG: '#6A4C9C',
                 prevBG: 'rgba(255, 255, 255, 0.198)',
-<<<<<<< HEAD
-                smTitle: 'Type Design and Character Encoding'
-            },
-            polarClock: {
-                size: innerHeight + 30,
-                fieldTrackColor: '#3d2033',
-                fieldTickColor: '#222',
-                hwTextColor: '#a2eafa',
-                fieldTickStroke: 'black',
-                hwCircleColor: '#374669',
-                hwCircleStroke: 'white',
-                nameCircleStroke: 'white',
-                tickTextColor: 'white',
-                nameTextColor: 'green',
-                nameText: '范凱翔',
-                nameCircleColor: 'rgba(106,76,156,0.3)',
-                nameTransitionLoop: true,
-
-                //hwFontFamily: '\'cwTeXFangSong\', serif;',
-=======
 				smTitle: 'Type Design and Character Encoding'
             },
             polarClock: {
@@ -128,42 +47,21 @@
                 tickTextColor: 'white',	
 				//圓變漢字部分字體顏色 (預設 random)
 				nameTextColor: 'green',
-                nameText: '仲皓瑋',
+                nameText: '范凱翔',
 				//圓變漢字部分圓形顏色
                 nameCircleColor: 'rgba(106,76,156,0.3)',
                 nameTransitionLoop: true,
->>>>>>> upstream
                 hwFontFamily: 'DFKai-sb',
                 hwFontPosition: {
                     dx: '-23px',
                     dy: '15px'
-<<<<<<< HEAD
-                }
-            },
-            loading: {
-                githubAccount: 'fantong11',
-                githubRepo: 'portfolio-demo'
-            }
-        };
-
-        window.onload = function () {
-            var PCP = PolarClockPortfolio;
-            PCP.config = config;
-            PCP.hw = hw;
-            PCP.fontSource = 'https://fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.ttf';
-
-            PCP.onLoadLoadingPage = function () {
-                console.log('Loading Success');
-            };
-            PCP.onLoadMainPage = function () {
-=======
                 },
 				//圓變漢字時間
 				hwTickDuration: 1000,
                 hwTickDelay: 1000
             },
             loading: {
-                githubAccount: 't109598105',
+                githubAccount: 't107590051',
                 githubRepo: 'ct2022s',
 				//自動載入圖片，如果作業有 cross-domain 的話，不要設為 true
 				autoLoading: false
@@ -180,26 +78,15 @@
                 console.log('Loading Success');
             };
             PCP.onLoadMainPage = function(){
->>>>>>> upstream
                 console.log('Main Page Rendered');
             }
 
             PCP.resizePreview = true;
-<<<<<<< HEAD
-            PCP.mount('#app');
-            PCP.render();
-        };
-=======
 			PCP.mount('#app');
 			PCP.render();
 		};
->>>>>>> upstream
 
     </script>
 
 </body>
-<<<<<<< HEAD
-
-=======
->>>>>>> upstream
 </html>
